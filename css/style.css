@@ -9,7 +9,6 @@ header{
     background-color: #FF6900;
 }
 nav{
-    height: 50px;
     max-width: 1200px;
     margin: auto;
 
@@ -54,3 +53,49 @@ nav{
 .icons img{
     max-width: 30px;
 }
+/* /header */
+
+/* main */
+/* section */
+main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section1{
+    margin-top: 25px;
+
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.section1 img{
+    max-width: 300px;
+}
+
+.section2{
+    margin-top: 25px;
+
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.section2 img{
+    max-width: 300px;
+}
+
+.price{
+    color: red;
+
+    margin-right: 10px;
+
+    display: inline-block;
+}
+
+.photo span{
+    text-decoration: line-through;
+}
+
+
