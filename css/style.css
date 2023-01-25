@@ -5,7 +5,9 @@
 }
 
 /* header */
-
+body{
+    padding-top: 50px;
+}
 
 nav{
     background-color: #FF6900;
@@ -70,7 +72,7 @@ main{
 }
 
 .section1{
-    margin-top: 80px;
+    margin-top: 30px;
 
     display: flex;
     justify-content: center;
@@ -113,5 +115,45 @@ footer{
     margin-top: 30px;
 
     background-color: black;
+}
+
+.container-footer{
+    max-width: 1200px;
+    height: 100px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left{
+    max-width: 450px;
+    padding-top: 30px;
+}
+
+.footer-left p{
+    color: white;
+}
+
+.links{
+    margin-top: 10px;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    padding-right: 5px;
+}
+
+.footer-right{
+    padding-top: 30px;
+}
+
+.footer-right p{
+    color: white;
+}
+
+.footer-img img{
+    max-width: 28px;
 }
 /* /footer */
