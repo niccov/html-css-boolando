@@ -5,10 +5,17 @@
 }
 
 /* header */
-header{
-    background-color: #FF6900;
-}
+
+
 nav{
+    background-color: #FF6900;
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+}
+
+.container-nav{
     max-width: 1200px;
     margin: auto;
 
@@ -63,7 +70,7 @@ main{
 }
 
 .section1{
-    margin-top: 25px;
+    margin-top: 80px;
 
     display: flex;
     justify-content: center;
@@ -97,5 +104,14 @@ main{
 .photo span{
     text-decoration: line-through;
 }
+/* /main */
+/* /section */
 
+/* footer */
+footer{
+    height: 100px;
+    margin-top: 30px;
 
+    background-color: black;
+}
+/* /footer */
